@@ -1,0 +1,93 @@
+/* Import the Space Grotesk font */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/SpaceGrotesk.ttf') format('truetype');
+}
+.grotesk{
+  font-family: 'Space Grotesk';
+}
+.navbar-brand{
+  font-size: 40px;
+}
+
+.sec2-img {
+  background-image: url('/image.png');
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.primary-bg{
+  background-color: #b7f4e3;
+}
+.primary-text{
+  color:#b7f4e3;
+}
+.secondary-text{
+  color:red;
+}
+.hero {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.734)), url('/hero.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif; /* Apply the font here */
+
+}
+.nav-icon{
+  font-size: 20px;
+}
+#about{
+  min-height: 400px;
+}
+
+.hero > h1 {
+  font-size: 50px;
+  font-weight:500;
+}
+.hero >p{
+  font-size:30px;
+}
+
+.sec2-text {
+  width: 50%;
+}
+
+.sec2 {
+  min-height: 30rem;
+}
+.navbar{
+  padding-right: 200px;
+  padding-left: 200px;
+}
+@media (max-width: 768px) {
+  .sec2 {
+    flex-direction: column;
+  }
+  .navbar{
+    padding-right: 0;
+    padding-left: 0;
+
+  }
+  .contacts{
+    flex-direction:column;
+  }
+  .navbar-brand{
+    font-size: 20px;
+  }
+  .contacts>div{
+    width:80%;
+    margin-bottom:20px;
+  }
+  .hero > {
+    text-align: center;
+  }
+
+  .sec2-img,
+  .sec2-text {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+
