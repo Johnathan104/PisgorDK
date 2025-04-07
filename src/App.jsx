@@ -55,7 +55,7 @@ function App() {
         <div className="d-flex my-2 sec2">
           <div
             className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/kwetiau.png')" }}
+            style={{ backgroundImage: "url('/Nasgor-wira/kwetiau.png')" }}
           ></div>
           <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
             <span className="fw-bold h2">Kwetiau</span>
@@ -65,7 +65,7 @@ function App() {
         <div className="d-flex my-2 sec2">
           <div
             className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/mie-goreng.png')" }}
+            style={{ backgroundImage: "url('/Nasgor-wira/mie-goreng.png')" }}
           ></div>
           <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
             <span className="fw-bold h2">Mie Goreng</span>
@@ -75,7 +75,7 @@ function App() {
         <div className="d-flex my-2 sec2">
           <div
             className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/mie-siram.png')" }}
+            style={{ backgroundImage: "url('/Nasgor-wira/mie-siram.png')" }}
           ></div>
           <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
             <span className="fw-bold h2">Mie Siram</span>

@@ -1,5 +1,6 @@
 {
   "name": "nasgor",
+  "homepage": "https://Johnathan104.github.io/Nasgor-wira/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +11,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "github": "^14.0.0",
+    "github-pages": "^0.1.0",
     "lucide-react": "^0.487.0",
+    "pages": "^0.0.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
