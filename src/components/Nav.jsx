@@ -17,6 +17,7 @@ function Nav() {
                     <a class="nav-link active" aria-current="page" href="#hero">Home</a>
                     <a class="nav-link" href="#menu">Menu</a>
                     <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#footer">Location</a>
                 </div>
             </div>
         </div>
