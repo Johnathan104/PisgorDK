@@ -75,7 +75,7 @@ function App() {
         <div className="d-flex my-2 sec2">
           <div
             className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/Nasgor-wira/mie-rebus2.png')" }}
+            style={{ backgroundImage: "url('/Nasgor-wira/mie-rebus2.png')", }}
           ></div>
           <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
             <span className="fw-bold h2">Mie Rebus</span>
@@ -86,7 +86,7 @@ function App() {
       <section id='footer' className="d-flex fw-bold flex-column justify-content-center align-items-center">
         <p className='grotesk py-5 fw-bold h1'>Contacts</p>
         <iframe
-        className='shadow-lg rounded-3' 
+        className='shadow-lg rounded-3 w-50' 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6634500161003!2d106.7775035!3d-6.1757897999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f79e601255b9%3A0xfda55d6b25c49040!2sNasi%20goreng%20wira!5e0!3m2!1sid!2sid!4v1744024166245!5m2!1sid!2sid" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <div className="contacts w-100 d-flex py-5 justify-content-evenly align-items-center">
