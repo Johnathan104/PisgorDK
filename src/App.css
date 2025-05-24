@@ -9,7 +9,13 @@
 .navbar-brand{
   font-size: 40px;
 }
-
+.body>#root{
+  background-color: black;
+}
+#root{
+  background-color: black;
+  color:white
+}
 .sec2-img {
   background-image: url('/hero2.png');
   background-size: cover;
@@ -17,17 +23,17 @@
   width: 50%;
 }
 .primary-bg{
-  background-color: #b7f4e3;
+  background-color: #dde900;
 }
 .primary-text{
-  color:#b7f4e3;
+  color:#e5ed00;
 }
 .secondary-text{
   color:red;
 }
 .hero{
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.734)), url('/hero3.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.734)), url('/pisgor/hero.jpg');
   background-size: cover;
   background-position: center;
   color: white;

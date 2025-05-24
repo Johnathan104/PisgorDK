@@ -27,83 +27,86 @@ function App() {
     <>
       <Nav />
       <div id='hero'className="w-100 hero vh-100 px-5 d-flex flex-column justify-content-center align-items-center">
-        <h1 className="primary-text fw-bold grotesk">Nasi Goreng</h1>
+        <h1 className="primary-text fw-bold grotesk">Pisang Goreng Keju Crispy "Bang Jago" Duri Kepa</h1>
       </div>
       <section id="about" className="w-100 container grotesk p-5 d-flex flex-column justify-content-center align-items-center">
-        <h1 className='h1 fw-bold mb-5'>Tentang Nasi Goreng Wira</h1>
+        <h1 className='h1 fw-bold mb-5'>Tentang Pisang Goreng Keju Crispy "Bang Jago" Duri Kepa</h1>
         <p>
-        Nasi Goreng Wira adalah pilihan terbaik untuk Anda yang mencari hidangan nasi goreng yang lezat, 
-        bergizi, 
-        dan dibuat dengan bahan-bahan berkualitas tinggi. 
-        Kami berkomitmen untuk memberikan cita rasa autentik yang memuaskan setiap selera. Dengan pengalaman sejak tahun 1992, 
-        kami telah menjadi kepercayaan banyak pelanggan dalam menghadirkan hidangan yang tidak hanya menggugah selera, 
-        tetapi juga memberikan kenikmatan yang tak terlupakan. 
-        Setiap porsi nasi goreng kami dibuat dengan penuh dedikasi dan perhatian terhadap kualitas, 
-        sehingga Anda dapat menikmati kelezatan yang sempurna di setiap suapan. Kami percaya bahwa makanan yang baik adalah kunci kebahagiaan, dan itulah yang selalu kami upayakan untuk Anda.
+        Pisang Goreng Keju Crispy "Bang Jago" adalah camilan sempurna yang memadukan 
+        renyahnya pisang goreng dengan kelezatan keju yang melimpah. Dibuat dari bahan-bahan berkualitas tinggi, 
+        
+        setiap gigitan menghadirkan perpaduan rasa manis, gurih, dan tekstur crispy yang tak tertandingi. 
+        Dengan berbagai varian rasa seperti Original, Keju Susu, hingga Keju Green Tea, 
+        kami menghadirkan pengalaman kuliner yang memanjakan lidah Anda. Cocok dinikmati kapan saja, 
+        Pisang Goreng Keju Crispy "Bang Jago" adalah pilihan terbaik untuk menemani waktu santai Anda!
           <br />
           semenjak 1992
         </p>
       </section>
-      <section id="menu d-flex">
-        <div className="d-flex my-2 sec2">
-          <div className="sec2-img animated-appear"></div>
-          <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
-            <span className="fw-bold h2">Nasi Goreng</span>
-            <h2>Rp 15.000</h2>
-          </div>
+      <section id="menu" className="d-flex flex-wrap flex-column align-items-center justify-content-center">
+        <h1 className='grotesk'>Menu</h1>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Crispy Original</h2>
+          <p className='py-2'>Merupakan rasa Keju Crispy Original kami, tanpa topping, rasakan kriuk pisang goreng yang manis sekali dengan harga yang murah!</p>
         </div>
-        <div className="d-flex my-2 sec2">
-          <div
-            className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/Nasgor-wira/kwetiau2.png')" }}
-          ></div>
-          <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
-            <span className="fw-bold h2">Kwetiau</span>
-            <h2>Rp 15.000</h2>
-          </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Susu</h2>
+          <p className='py-2'>Pisang goreng crispy dengan taburan keju dan susu yang melimpah, memberikan rasa manis dan gurih yang sempurna.</p>
         </div>
-        <div className="d-flex my-2 sec2">
-          <div
-            className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/Nasgor-wira/mie-goreng2.png')" }}
-          ></div>
-          <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
-            <span className="fw-bold h2">Mie Goreng</span>
-            <h2>Rp 12.000</h2>
-          </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Strawberry</h2>
+          <p className='py-2'>Kombinasi unik antara pisang goreng crispy, keju, dan manisnya strawberry yang menyegarkan.</p>
         </div>
-        <div className="d-flex my-2 sec2">
-          <div
-            className="sec2-img animated-appear"
-            style={{ backgroundImage: "url('/Nasgor-wira/mie-rebus2.png')", }}
-          ></div>
-          <div className="d-flex sec2-text bg-light flex-column justify-content-center align-items-center animated-slide">
-            <span className="fw-bold h2">Mie Rebus</span>
-            <h2>Rp 14.000</h2>
-          </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Blueberry</h2>
+          <p className='py-2'>Rasakan perpaduan pisang goreng crispy dengan keju dan blueberry yang manis dan sedikit asam.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Meses</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan taburan meses coklat yang menggugah selera.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Nanas</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan rasa nanas yang segar dan manis.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Green Tea</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan rasa green tea yang khas dan menenangkan.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Tiramisu</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan rasa tiramisu yang kaya dan creamy.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Durian</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan aroma durian yang khas dan menggoda.</p>
+        </div>
+        <div className="py-5 container  border-top border-bottom border-light">
+          <h2>Keju Coklat</h2>
+          <p className='py-2'>Pisang goreng crispy dengan keju dan coklat yang manis dan lezat.</p>
         </div>
       </section>
       <section id='footer' className="d-flex fw-bold flex-column justify-content-center align-items-center">
         <p className='grotesk py-5 fw-bold h1'>Contacts</p>
         <iframe
-        className='shadow-lg rounded-3 w-50' 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6634500161003!2d106.7775035!3d-6.1757897999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f79e601255b9%3A0xfda55d6b25c49040!2sNasi%20goreng%20wira!5e0!3m2!1sid!2sid!4v1744024166245!5m2!1sid!2sid" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+         className='shadow-lg rounded-3 w-50' 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.663668013368!2d106.77495049999999!3d-6.1757607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7db242a7cef%3A0xf3f67fd34dedd9a6!2sPisang%20Goreng%20Keju%20Crispy%20Duri%20Kepa!5e0!3m2!1sid!2sid!4v1748089398004!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <div className="contacts w-100 d-flex py-5 justify-content-evenly align-items-center">
           <div style={{borderLeft:"solid black"}} className="d-flex py-3 flex-column border-2 ps-2 border-dark justify-content-center align-items-left">
             <h1 className='fw-bold h2 animated-slide'> <PhoneIcon  className='me-2'/>Kontak</h1>
-            <span className='fw-bold animated-slide'>08123456789</span>
+            <span className='fw-bold animated-slide'>0858-1912-7828</span>
           </div>
           <div style={{borderLeft:" solid black"}}  className="text-right py-3 d-flex border-2 ps-2 flex-column justify-content-left align-items-left">
             <h1 className='fw-bold h2 animated-slide'><MapPinIcon  className='me-2'/>Alamat</h1>
-            <span className='fw-bold animated-slide'>Jl. Raya No. 123, Jakarta</span>
+            <span className='fw-bold animated-slide'>Jl mangga 17, Duri Kepa, Jakarta Barat</span>
           </div>
           <div style={{borderLeft:" solid black"}}  className="d-flex border-2 py-3 ps-2 flex-column justify-content-center align-items-left">
             <h1 className='fw-bold h2 animated-slide'><ClockIcon className='me-2'/>Jam Buka</h1>
-            <span className='fw-bold animated-slide'>Setiap Hari 19:00 - 01:00</span>
+            <span className='fw-bold animated-slide'>Setiap Hari 7:00 - 19:00</span>
           </div>
         </div>
-        <span className='text-dark fw-light py-5'>Jakarta, 2024, jl mangga II no6. 1</span>
+        <span className='primary-text fw-light py-5'>Jakarta, 2024, jl mangga II no6. 1</span>
       </section>
     </>
   );

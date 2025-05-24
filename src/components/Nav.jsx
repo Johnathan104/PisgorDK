@@ -1,13 +1,13 @@
 import React from 'react'
-import {ForkKnifeCrossedIcon, SproutIcon} from 'lucide-react'
+import {ForkKnifeCrossedIcon, SproutIcon, BananaIcon} from 'lucide-react'
 
 function Nav() {
   return (
     <nav class="navbar py-4 navbar-expand-lg sticky-top primary-bg">
         <div class="container-fluid">
             <a class="navbar-brand fw-bold grotesk d-flex align-items-center" style={{marginRight:"auto"}}href="#hero">
-                <SproutIcon style={{height:'35px', width:'35px'}} className='me-2 fw-bold'/>
-                Nasi Goreng Wira
+                <BananaIcon style={{height:'35px', width:'35px'}} className='me-2 fw-bold'/>
+                PisangGorengDK
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
